@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+nav h1 {
+    font-weight: 700;
+}
+
+nav a {
+    margin-left: 1.5rem;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+section:nth-of-type(2n) {
+    flex-direction: row-reverse;
+    background-color: lightcoral;
+}
+
+section div {
+    padding: 0 6rem;
+}
+
+section h2 {
+    font-size: 48px;
+}
+
+section p {
+    font-size: 28px;
+    line-height: 3rem;
+}
+
+footer {
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+}
